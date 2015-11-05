@@ -43,4 +43,6 @@ if '__name__' == '__main__':
     
     server.login(cgf['user'],cfg['mailpaswd'])
     server.select(cfg['folder'])
+    res, uids = server.search(None, 'ALL')
+    res, a= server.fetch(1, '(BODY[HEADER])')
 
