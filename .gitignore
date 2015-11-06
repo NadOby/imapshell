@@ -1,4 +1,5 @@
-.imapshelrc
+imapshell.conf
 *.swp
 *~
+*.pyc
 #*
